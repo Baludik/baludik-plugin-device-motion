@@ -1,0 +1,21 @@
+{
+  "name": "baludik-plugin-device-motion",
+  "version": "0.0.1",
+  "description": "Baludik Device Motion Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "baludik-plugin-device-motion",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "motion",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Baludik team",
+  "license": "Apache-2.0"
+}

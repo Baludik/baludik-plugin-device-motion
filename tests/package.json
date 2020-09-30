@@ -1,0 +1,12 @@
+{
+  "name": "baludik-plugin-device-orientation-tests",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "baludik-plugin-device-orientation-tests",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ]
+}
