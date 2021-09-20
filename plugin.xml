@@ -83,5 +83,31 @@
 
         <framework src="CoreMotion.framework" />
         <framework src="CoreLocation.framework" />
+        
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>This app requires camera for reality augmented.</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+            <string>This app requires photo library for save your picture in your device.</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+            <string>This app requires location for help you to discover places.</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+            <string>This app requires location for help you to discover places.</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string>This app requires location for help you to discover places.</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>This app requires photo library for save your picture in your device.</string>
+        </config-file>
+        
+
     </platform>
 </plugin>
